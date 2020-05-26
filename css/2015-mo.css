@@ -39,8 +39,9 @@ body { margin: 0; }
 
 #umnhf-h-mast { position: relative; min-height: 75px; margin: 0 auto; background: #7a0019; }
 
-#umnhf-h-logo { display: block; float: left; overflow: hidden; width: 360px; height: 35px; margin: 10px 10px 17px 54px; white-space: nowrap; text-indent: 100%; background: transparent url("../img/sprites/mo/M-gld-wht-h.png") 0 0 no-repeat; background-size: 356px auto; }
-@media only screen and (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 192dpi) { #umnhf-h-logo { background: transparent url("../img/sprites/mo/M-gld-wht-h@2x.png") 0 0 no-repeat; background-size: 356px auto; height: 34px; } }
+#umnhf-h-logo { display: block; float: left; overflow: hidden; width: 360px; height: 35px; margin: 10px 10px 17px 54px; white-space: nowrap; text-indent: 100%; background: transparent url("../img/sprites/tc/M-gld-wht.png") 0 0 no-repeat; background-size: 356px auto; }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 192dpi) { #umnhf-h-logo 
+  { background: transparent url("../img/sprites/tc/M-gld-wht@2x.png") 0 0 no-repeat; background-size: 356px auto; height: 34px; } }
 
 #umnhf-h-ql { position: absolute; top: 16px; right: 54px; width: auto; margin: 0; list-style-type: none; color: #fff; }
 #umnhf-h-ql li { margin: 0; font-weight: 100; float: left; margin: 0 0 0 20px; }
@@ -65,7 +66,7 @@ body { margin: 0; }
   #umnhf-h-cl { left: 27px; }
   #umnhf-h-ql, #umnhf-h-search { right: 27px; } }
 @media (max-width: 775px) { #umnhf-h-mast { min-height: 50px; }
-  #umnhf-h-logo { margin-left: 17px; height: 37px; background: transparent url("../img/sprites/mo/M-gld-wht.png") 0 0 no-repeat; background-size: 288px auto; } }
+  #umnhf-h-logo { margin-left: 17px; height: 37px; background: transparent url("../img/sprites/tc/M-gld-wht.png") 0 0 no-repeat; background-size: 288px auto; } }
 @media only screen and (max-width: 775px) and (-webkit-min-device-pixel-ratio: 1.25), (max-width: 775px) and (min-resolution: 192dpi) { #umnhf-h-logo { background: transparent url("../img/sprites/mo/M-gld-wht@2x.png") 0 0 no-repeat; background-size: 288px auto; height: 37px; } }
 
 @media (max-width: 775px) { #umnhf-h-cl { display: none; }
