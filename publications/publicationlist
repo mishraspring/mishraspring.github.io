@@ -1,16 +1,40 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
-<meta content="utf-8" http-equiv="encoding">
-<title>Dr Hemant K Mishra</title>	
-<link rel="stylesheet" type="text/css" href="../css/StyleSheet.css">
-</head>
-<body>
+lines (674 sloc)  54.6 KB
   
-  <div id="container">
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Dr Hemant K Mishra</title>
+		<!--	None of this mobile stuff will work if you don't use a viewport meta tag -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="../css/2015-mo.css">
+		<link rel="stylesheet" href="../css/styleSheet.css">
+		
+		<script src="../js/umnhf-2015.js"></script>
+		<!-- HTML5 Support for IE -->
+		<script src="../js/html5shiv-printshiv.js"></script>
 
-    <img src="https://github.com/mishraspring/mishraspring.github.io/blob/master/HKM_Headshot.png?raw=true" id="pic">
-    <div id="content-contact">Hemant K Mishra, MS, Ph.D.</div> 
-  <div>
-</body>
+	</head>
+	<body><!-- inline style for sample display purposes only. Please don't use it. -->
+	<!-- BEGIN HEADER -->
+	<header class="umnhf" id="umnhf-h">
+		<!-- Skip Links: Give your nav and content elements the appropriate ID attributes -->
+		<div id="skipLinks"><a href="#main-nav">Main navigation</a><a href="#main-content">Main content</a></div>
+		<div class="printer"><div class="left"></div><div class="right"><strong>University of Minnesota Twin Cities</strong><br />http://www.twin-cities.umn.edu/index.php<br />888-866-3382</div></div>
+		<div class="umnhf" id="umnhf-h-mast">
+			<a class="umnhf" id="umnhf-h-logo" href="http://www.twin-cities.umn.edu/index.php"><span>Go to the U of M Twin Cities home page</span></a>
+			<!-- REMOVE CAMPUS LINKS FOR INTERNAL PAGES -->
+			<ul id="umnhf-h-cl"><li><a href="#">Crookston</a></li><li><a href="#">Duluth</a></li><li><a href="#" >Morris</a></li><li><a href="#">Rochester</a></li><li><a href="#" class="umnhf home">Twin Cities</a></li></ul>
+			<ul class="umnhf" id="umnhf-h-ql">
+				<li><a href="http:///onestop.umn.edu/">One Stop</a></li>
+				<li class="umnhf"><a href="https://www.myu.umn.edu/">MyU <span></span>: Students, Faculty and Staff</a></li>
+			</ul>
+			<button class="umnhf" id="umnhf-m-search" >Search</button>
+		</div>
+		<form class="umnhf" id="umnhf-h-search" action="//search.umn.edu/tc/" method="get" title="Search Websites and People">
+			<label class="umnhf" for="umnhf-h-st">Search</label>
+			<input class="umnhf" id="umnhf-h-st" type="text" name="q" />
+			<label class="umnhf" for="umnhf-h-sb">Submit search query</label>
+			<input class="umnhf" id="umnhf-h-sb" type="submit" value="" label="Search">
+		</form>
+	</header>
