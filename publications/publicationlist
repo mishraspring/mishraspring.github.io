@@ -1,1 +1,16 @@
-this is a test page
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+<title>Dr Hemant K Mishra</title>	
+<link rel="stylesheet" type="text/css" href="../css/StyleSheet.css">
+</head>
+<body>
+  
+  <div id="container">
+
+    <img src="https://github.com/mishraspring/mishraspring.github.io/blob/master/HKM_Headshot.png?raw=true" id="pic">
+    <div id="content-contact">Hemant K Mishra, MS, Ph.D.</div> 
+  <div>
+</body>
