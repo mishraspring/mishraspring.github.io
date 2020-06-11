@@ -6,7 +6,7 @@ body { margin: 0; }
 
 .visually-hidden { position: absolute; overflow: hidden; clip: rect(0, 0, 0, 0); width: 1px; height: 1px; margin: -1px; padding: 0; border: 0 none; }
 
-#umnhf-h.umnhf, #umnhf-f.umnhf, #umnhf-alt.umnhf, #umnhf-uf.umnhf, #umnhf-h-ma, #umn-main { position: static; z-index: auto; top: auto; right: auto; bottom: auto; left: auto; visibility: visible; float: none; clear: none; overflow: visible; width: 1152px; min-width: 0; max-width: none; height: auto; min-height: 0; max-height: none; margin: 0 auto; padding: 0; text-align: left; white-space: normal; text-decoration: none; text-indent: 0; letter-spacing: normal; text-transform: none; border: none; background: none; font: normal normal normal 14px/20px Helvetica, "Helvetica Neue", "Futura", Verdana, "Geneva", sans-serif; line-height: 20px; }
+#umnhf-h.umnhf, #umnhf-f.umnhf, #umnhf-alt.umnhf, #umnhf-uf.umnhf, #umnhf-h-ma, #umn-main { position: static; z-index: auto; top: auto; right: auto; bottom: auto; left: auto; visibility: visible; float: none; clear: none; overflow: visible; width: 100%; min-width: 0; max-width: none; height: auto; min-height: 0; max-height: none; margin: 0 auto; padding: 0; text-align: left; white-space: normal; text-decoration: none; text-indent: 0; letter-spacing: normal; text-transform: none; border: none; background: none; font: normal normal normal 14px/20px Helvetica, "Helvetica Neue", "Futura", Verdana, "Geneva", sans-serif; line-height: 20px; }
 
 .printer { display: none; }
 
