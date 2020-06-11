@@ -76,6 +76,13 @@ h4{
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
+
+.header {
+    background: #3a3534;
+    color: #fff;
+    position: relative;
+    z-index: 100;
+}
 .header.gold {
     background: #ffcc33;
 }
