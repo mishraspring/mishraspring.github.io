@@ -110,3 +110,17 @@ a, a:link {
     text-decoration: underline;
     font-weight: 700;
 }
+
+.goldheader .unit-site-name {
+    color: #7a0019;
+}
+
+a:visited, a:link:visited {
+    color: #7a0019;
+}
+.header .unit-site-name {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-decoration: none;
+}
