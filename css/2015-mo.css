@@ -1,4 +1,4 @@
-div, header, footer, section, address, nav, main { box-sizing: border-box; }
+div,  footer, section, address, nav, main { box-sizing: border-box; }
 
 html { -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
 
