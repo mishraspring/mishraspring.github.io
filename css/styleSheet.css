@@ -1,11 +1,13 @@
 /*body {
 	font: 16px Helvetica, Sans-Serif;
 	background: url(../img/sprites/ricepaper_v3.png);
+background: #f0efee;
 	
 }*/
 
 body {
-    background: #f0efee;
+    
+	background: url(../img/sprites/ricepaper_v3.png);
     color: #424d5b;
     font-size: 18px;
     line-height: 1.5;
@@ -83,13 +85,13 @@ h4{
     position: relative;
     z-index: 100;
 }
-.header.gold {
+.goldheader {
     background: #ffcc33;
 }
-.header.gold .parent-unit, .header.gold .unit-subheader {
+.goldheader.parentunit, .goldheader .unit-subheader {
     color: #424d5b;
 }
-.header .parent-unit {
+.header .parentunit {
     font-weight: 700;
 }
 .super-main {
