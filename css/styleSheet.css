@@ -1,9 +1,17 @@
-body {
+/*body {
 	font: 16px Helvetica, Sans-Serif;
 	background: url(../img/sprites/ricepaper_v3.png);
 	
-}
+}*/
 
+body {
+    background: #f0efee;
+    color: #424d5b;
+    font-size: 18px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Open Sans',Helvetica,'Helvetica Neue','Futura',Verdana,'Geneva',sans-serif;
+}
 #pic {
 	float: right;
 }
@@ -67,4 +75,17 @@ h3 {
 h4{
 	margin-top: 0px;
 	margin-bottom: 0px;
+}
+.header.gold {
+    background: #ffcc33;
+}
+.header.gold .parent-unit, .header.gold .unit-subheader {
+    color: #424d5b;
+}
+.header .parent-unit {
+    font-weight: 700;
+}
+.super-main {
+    background: #f0efee;
+    z-index: 100;
 }
