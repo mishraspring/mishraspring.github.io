@@ -52,6 +52,19 @@
 			x.style.display = "none";
 		    }
 		  }
+			
+		function showPanel3(Div) {
+		  var x = document.getElementById(Div);
+	           		  
+		    if(x.style.display=="none") {
+			x.style.display = "block";
+			 document.getElementById("divLeftPanel").style.display="none";   
+			  document.getElementById("divMiddlePanel").style.display="none"; 
+			  document.getElementById("divRightPanel").style.display="none";  `  
+		    } else {
+			x.style.display = "none";
+		    }
+		  }
 </script>
 	</head>
 	<body><!-- inline style for sample display purposes only. Please don't use it. -->
@@ -137,11 +150,12 @@
 	    
 	    <div id="mainPanel">
 		<table style="width :85%; align:left; border:5px; border-style:solid;">
-			<tr><td colspan="3" width="100%">
+			<tr><td colspan="4" width="100%">
 				<div class="btn-group">
 					  <button class="button" id="btnBioInfo" onclick="showPanel('divLeftPanel')">Biographical Info</button>
 					  <button class="button" id="btnResearch" onclick="showPanel1('divMiddlePanel')">Research & Teaching</button>
 					  <button class="button" id="btnPublication" onclick="showPanel2('divRightPanel')">Publications & Awards</button>
+					  <button class="button" id="btnNews" onclick="showPanel2('divRightPanelEx')">News</button>
 					
 					</div>
 				</td>
@@ -163,6 +177,7 @@ DELHI UNIVERSITY, New Delhi, India </p></div>
 			   <div id="divMiddlePanel" style="display:none;"> middle panel testing</div>
 		   </td>
 			<td><div id="divRightPanel" style="display:none;">right panel testing </div></td>
+			<td><div id="divRightPanelEx" style="display:none;"> News </div></td>
 		</tr>
 						    
 		</table>
