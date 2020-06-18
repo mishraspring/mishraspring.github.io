@@ -14,27 +14,19 @@
 		<!-- HTML5 Support for IE -->
 		<script src="../js/html5shiv-printshiv.js"></script>
 		<script>
-function myFunction() {
-   window.location.href ="publications/publicationlist.html"
-}
+		function myFunction() {
+		   window.location.href ="publications/publicationlist.html"
+		}
 
-			
-			
-			
-  function showLeftPanel() {
-    var elem = document.getElementById("left-panel");
-    if (elem.classList) {
-      elem.classList.toggle("show");
-    } else {
-      var classes = elem.className;
-      if (classes.indexOf("show") >= 0) {
-        elem.className = classes.replace("show", "");
-      } else {
-        elem.className = classes + " show";
-      }
-      console.log(elem.className);
-    }
-  }
+
+		  function showPanel(Div) {
+		  var x = document.getElementById(Div);
+		    if(x.style.display=="none") {
+			x.style.display = "block";
+		    } else {
+			x.style.display = "none";
+		    }
+		  }
 
 </script>
 	</head>
@@ -120,27 +112,24 @@ function myFunction() {
 	    <br/>
 	    
 	    <div id="mainPanel">
-		<table>
+		<table style="width :100%; align:center; border:5px;">
 		<tr>
 		  <td>
-		    <button id="leftBtn" onclick="showLeftPanel()">showLeftPanel</button>
-			  <div class="clicker" tabindex="1">Click me</div>
-		   </td>
-		  <td> <button id="middleBtn" >middle panel</button></td>
-		<td><button id="rightBtn" >Right panel</button></td>
+		    <button id="leftBtn" onclick="showPanel('divLeftPanel')">showLeftPanel</button>
+		  </td>
+		  <td> <button id="middleBtn" onclick="showPanel('divLeftPanel')" >middle panel</button></td>
+		  <td><button id="rightBtn" >Right panel</button></td>
 		
 		</tr>
 		<tr>
 		   <td>
-		 
-
-		<div class="hiddendiv">testing</div>
+		     <div class="divLeftPanel" style="display:none;"> testing</div>
 
 		   </td>
 		   <td>
-			   <div id="middle-panel"> middle panel testing</div>
+			   <div id="divMiddlePanell" style="display:none;"> middle panel testing</div>
 		   </td>
-			<td><div id="right-panel">right panel testing </div></td>
+			<td><div id="divRightPanel" style="display:none;">right panel testing </div></td>
 		</tr>
 						    
 		</table>
