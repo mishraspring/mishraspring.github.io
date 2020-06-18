@@ -21,9 +21,11 @@
 
 		  function showPanel1(Div) {
 		  var x = document.getElementById(Div);
+	           		  
 		    if(x.style.display=="none") {
 			x.style.display = "block";
 			 document.getElementById("divMiddlePanel").style.display="none";   
+			  document.getElementById("divRightPanel").style.display="none";      
 		    } else {
 			x.style.display = "none";
 		    }
@@ -114,9 +116,9 @@
 	    
 	    <div id="mainPanel">
 		<table style="width :85%; align:left; border:5px; border-style:solid;">
-			<tr><td colspan="3">
+			<tr><td colspan="3" width="100%">
 				<div class="btn-group">
-					  <button class="button" id="btnBioInfo" onclick="showPanel('divLeftPanel')">Biographical Info</button>
+					  <button class="button" id="btnBioInfo" onclick="showPanel1('divLeftPanel')">Biographical Info</button>
 					  <button class="button" id="btnResearch" onclick="showPanel('divMiddlePanel')">Research & Teaching</button>
 					  <button class="button" id="btnPublication" onclick="showPanel('divRightPanel')">Publications & Awards</button>
 					
