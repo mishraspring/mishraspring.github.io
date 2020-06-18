@@ -126,8 +126,8 @@ a:visited, a:link:visited {
 }
 
 #left-panel {
-  width: 300px;
-  height: 400px;
+  width: 400px;
+  height:6000px;
   border: 5px solid #555;
   background-color: #ccc;
   position: fixed;
