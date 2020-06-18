@@ -108,7 +108,7 @@ a, a:link {
     border-bottom: none;
     color: #7a0019;
     text-decoration: underline;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .goldheader .unit-site-name {
@@ -121,41 +121,24 @@ a:visited, a:link:visited {
 .header .unit-site-name {
     color: #fff;
     font-size: 2.5rem;
-    font-weight: 400;
+    font-weight: 300;
     text-decoration: none;
 }
 
-#left-panel {
-  width: 400px;
-  height:600px;
-  border: 2px solid #555;
-  background-color: #ccc;
-  position: fixed;
-  top: 150px;
- 
-  border-radius: 0 1em 1em 0;
-  padding: 5px;
-  -webkit-transition: all 0.5s ease-in-out;
+.clicker {
+width:100px;
+height:100px;
+background-color:blue;
+outline:none;
+cursor:pointer;
 }
 
-#left-panel:hover {
-  left: -250px;
+.hiddendiv{
+display:none;
+height:200px;
+background-color:green;
 }
 
-#left-panel.show {
-  left: -5px;
-}
-
-#left-panel a.controller {
-  position: absolute;
-  right: 5px;
-  top: 5px;
-  text-decoration: none;
-  -webkit-transition: all 0.5s ease-in-out;
-  color: black;
-  font-weight: bold;
-}
-
-#left-panel.show a.controller {
-  -webkit-transform: rotate(180deg);
+.clicker:focus + .hiddendiv{
+display:block;
 }
