@@ -102,13 +102,13 @@ h4{
     max-width: 1200px;
     margin-right: auto;
     margin-left: auto;
-    padding: 15px;
+    padding: 25px;
 }
 a, a:link {
     border-bottom: none;
     color: #7a0019;
     text-decoration: underline;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .goldheader .unit-site-name {
