@@ -124,3 +124,13 @@ a:visited, a:link:visited {
     font-weight: 400;
     text-decoration: none;
 }
+
+.panel {
+  display: inline-block;
+  background: #ffffff;
+  min-height: 100px;
+  height: 100px;
+  padding: 10px;
+}
+
+
