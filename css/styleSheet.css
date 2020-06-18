@@ -127,12 +127,12 @@ a:visited, a:link:visited {
 
 #left-panel {
   width: 400px;
-  height:6000px;
-  border: 5px solid #555;
+  height:600px;
+  border: 2px solid #555;
   background-color: #ccc;
   position: fixed;
   top: 150px;
-  left: -275px;
+ 
   border-radius: 0 1em 1em 0;
   padding: 5px;
   -webkit-transition: all 0.5s ease-in-out;
