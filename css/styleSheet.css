@@ -132,5 +132,18 @@ a:visited, a:link:visited {
   height: 100px;
   padding: 10px;
 }
-
+.panel1 {
+  min-width: 100px;
+  width: 100px;
+}
+.small {
+  margin-left: 10px;
+  width: 111px;
+  height: 90px;
+  min-height: 90px;
+}
+.panel2 {
+  min-width: 245px;
+  width: 245px;
+}
 
