@@ -9,7 +9,7 @@ body {
     
 	background: url(../img/sprites/ricepaper_v3.png);
     color: #424d5b;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
     font-family: 'Open Sans',Helvetica,'Helvetica Neue','Futura',Verdana,'Geneva',sans-serif;
@@ -120,8 +120,8 @@ a:visited, a:link:visited {
 }
 .header .unit-site-name {
     color: #fff;
-    font-size: 2.5rem;
-    font-weight: 300;
+    font-size: 2.0rem;
+    font-weight: 200;
     text-decoration: none;
 }
 
