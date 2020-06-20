@@ -186,3 +186,13 @@ a:visited, a:link:visited {
 .btn-group .button:hover {
   background-color: #3e8e41;
 }
+.nav-tab{
+    color: #ffcc33;
+    background-color: #333333;
+    border: 1px solid #333333;
+    border-radius: 0;
+    padding: 5px;
+    position: relative;
+    display: block;
+    z-index: 10;
+}
