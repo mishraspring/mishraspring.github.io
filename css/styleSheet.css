@@ -49,9 +49,9 @@ a:hover + .box,.box:hover{
 	margin: 0 0 16px 0;
 	padding: 0 0 16px 0;
 	font-weight: 400;
-	letter-spacing: -2px;
+	
 	color: #7a0019;
-	font-size: 3ppx;
+	font-size: 30px;
 	line-height: 1.50;
 	font-family: "Open Sans",sans-serif;	
 	
@@ -65,8 +65,7 @@ a:hover + .box,.box:hover{
 	margin: 0 0 10px 0;
 	padding: 0 0 8px 0;
 	font-size: 20px;
-	font-weight: bold;
-	letter-spacing: -2px;
+	font-weight: 300;
 	
 	
 }
