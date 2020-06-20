@@ -7,10 +7,10 @@ background: #f0efee;
 
 body {
     
-	background: url(../img/sprites/ricepaper_v3.png);
+    background: url(../img/sprites/ricepaper_v3.png);
     color: #424d5b;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.25;
     -webkit-font-smoothing: antialiased;
     font-family: 'Open Sans',Helvetica,'Helvetica Neue','Futura',Verdana,'Geneva',sans-serif;
 }
@@ -64,17 +64,18 @@ a:hover + .box,.box:hover{
 #content-contactInfo {
 	margin: 0 0 10px 0;
 	padding: 0 0 8px 0;
-	font-size: 18px;
-	font-weight: 200;
+	font-size: 1em;
+   	 font-weight: 400;
 	font-family: "Open Sans",sans-serif;	
 }
 
 #content-contactAddress {
 	margin: 0 0 10px 0;
 	padding: 0 0 8px 0;
-	font-size: 16px;
-	font-weight: 200;
+	font-size: 1em;
+       font-weight: 400;
 	font-family: "Open Sans",sans-serif;	
+	 color: #333;
 	
 }
 
