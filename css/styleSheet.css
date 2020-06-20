@@ -56,7 +56,11 @@ a:hover + .box,.box:hover{
 	font-family: "Open Sans",sans-serif;	
 	
 }
-
+.role-and-dept {
+    margin-top: 5px;
+    display: inline-block;
+    color: #333;
+}
 #content-contactInfo {
 	margin: 0 0 10px 0;
 	padding: 0 0 8px 0;
