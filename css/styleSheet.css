@@ -46,13 +46,13 @@ a:hover + .box,.box:hover{
 }
 
 #content-contact {
-	margin: 0 0 16px 0;
-	padding: 0 0 16px 0;
+	margin: 0 0 12px 0;
+	padding: 0 0 12px 0;
 	font-weight: bold;
         letter-spacing: -2px;
 	color: #7a0019;
 	font-size: 30px;
-	line-height: 1.50;
+	line-height: 1.00;
 	font-family: "Open Sans",sans-serif;	
 	
 }
@@ -66,8 +66,17 @@ a:hover + .box,.box:hover{
 	padding: 0 0 8px 0;
 	font-size: 18px;
 	font-weight: 200;
+	font-family: "Open Sans",sans-serif;	
 }
 
+#content-contactAddress {
+	margin: 0 0 10px 0;
+	padding: 0 0 8px 0;
+	font-size: 16px;
+	font-weight: 200;
+	font-family: "Open Sans",sans-serif;	
+	
+}
 
 #content-summarycontent {
 	margin: 0 0 16px 0;
