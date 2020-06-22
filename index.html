@@ -15,11 +15,20 @@
 		   window.location.href ="publications/publicationlist.html"
 		}
 
-
-		  function showPanel(Div) 
+		var count=1;
+		
+		  function showPanel(Div, btn) 
 		{
 		  var x = document.getElementById(Div);
-	           		  
+	          var property = document.getElementById(btn); 
+			  if (count == 0){
+			property.style.backgroundColor = "#FFFFFF"
+			count=1;        
+		    }
+		    else{
+			property.style.backgroundColor = "#7FFF00"
+			count=0;
+		    }
 		    if(x.style.display=="none") 
 		    {
 			x.style.display = "block";
@@ -149,7 +158,7 @@
 <table style="width :85%; align:left; border:5px; border-style:solid;">
 <tr><td colspan="4" width="100%">
 	<div class="btn-group">
-	<button class="button_color" id="btnBioInfo" onclick="showPanel('divLeftPanel')">Biographical Info</button><span width="5px;">&nbsp;&nbsp;</span>
+	<button class="button" id="btnBioInfo" onclick="showPanel('divLeftPanel', 'btnBioInfo')">Biographical Info</button><span width="5px;">&nbsp;&nbsp;</span>
 	<button  class="button" id="btnResearch" onclick="showPanel1()">Research & Teaching</button>&nbsp;&nbsp;
 	<button class="button" id="btnPublication" onclick="showPanel2()">Publications & Awards</button>&nbsp;&nbsp;
 	<button class="button" id="btnNews" onclick="showPanel2()">News</button>
