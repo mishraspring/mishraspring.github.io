@@ -173,7 +173,9 @@ a:visited, a:link:visited {
 .btn-group .button.active{
   background-color:grey;
 }
-
+.btn-group . button.selected{
+  color:red;
+}
 
 .button {
   background-color: #333333;
