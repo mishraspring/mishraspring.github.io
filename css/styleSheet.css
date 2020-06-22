@@ -153,24 +153,9 @@ a:visited, a:link:visited {
     text-decoration: none;
 }
 
-.button1 {
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 8px;
-  transition-duration: 0.4s;
-}
-.button1:hover {
-  background-color: #4CAF50; /* Green */
-  color: white;
-}
+
 .btn-group .button {
-  background-color: #333333; /* Green */
+  background-color: #333333;
   border: none;
   color: #ffcc33;
   padding: 15px 32px;
@@ -185,7 +170,21 @@ a:visited, a:link:visited {
 }
 
 .btn-group .button:hover {
-  background-color: #3e8e41;
+  background-color:grey;
+}
+.button {
+  background-color: #333333;
+  border: none;
+  color: #ffcc33;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  spacing:15px;	
+  font-size: 20px;
+  cursor: pointer;
+  float: left;
+  border-radius: 8px;	
 }
 
 
