@@ -29,7 +29,6 @@
 		    if(x.style.display=="none") 
 		    {
 			x.style.display = "block";
-			x.style.backgroundcolor="yellow"    ;
 			property.style.backgroundColor ="grey";
 				
 			document.getElementById("btnResearch").style.backgroundColor ="#333333";
@@ -182,8 +181,8 @@
 <table style="width :85%; align:left;">
 <tr><td colspan="4" width="100%">
 	<div class="btn-group">
-	<button class="button" onmouseover= "this.style.background-color='grey';" id="btnBioInfo" onclick="showPanel('divLeftPanel', 'btnBioInfo')">Biographical Info</button><span width="5px;">&nbsp;&nbsp;</span>
-	<button  class="button" id="btnResearch" onmouseover= "this.style.background-color='grey';" onclick="showPanel1('btnResearch')">Research & Teaching</button>&nbsp;&nbsp;
+	<button class="button"  id="btnBioInfo" onclick="showPanel('divLeftPanel', 'btnBioInfo')">Biographical Info</button><span width="5px;">&nbsp;&nbsp;</span>
+	<button  class="button" id="btnResearch" onclick="showPanel1('btnResearch')">Research & Teaching</button>&nbsp;&nbsp;
 	<button class="button" id="btnPublication" onclick="showPanel2('btnPublication')">Publications & Awards</button>&nbsp;&nbsp;
 	<button class="button" id="btnNews" onclick="showPanel2('btnPublication')">News</button>
 	</div>
@@ -191,7 +190,7 @@
 </tr>
 <tr>
  <td>
- <div id="divLeftPanel" style="display:none; border:solid; border-width:2px;">
+ <div id="divLeftPanel" style="display:none; border:solid; border-width:2px; background-color=pink;">
 	<div id="content-professional"> 
 		<div id="content-professionalheader">Education</div>
 		<p> Ph.D. | 2011
