@@ -21,42 +21,47 @@
 		{
 		  var x = document.getElementById(Div);
 	          var property = document.getElementById(btn); 
-		   property.style.backgroundColor ="red";
+		  
 		
 		    if(x.style.display=="none") 
 		    {
 			x.style.display = "block";
+			 property.style.backgroundColor ="red";    
 			 document.getElementById("divMiddlePanel").style.display="none";   
 			  document.getElementById("divRightPanel").style.display="none";      
 		    } else
 		    {
 			x.style.display = "none";
-			property.style.backgroundColor ="black";
+			property.style.backgroundColor ="#333333";
 		    }
 		  }
-  		function showPanel1() 
+  		function showPanel1(btn1) 
 		{
 		  var x =   document.getElementById("divMiddlePanel");
-	           		  
+	          var property1 = document.getElementById(btn);  		  
 		    if(x.style.display=="none") 
-		    {
+		    { 
+			  property1.style.backgroundColor ="red";
 			  document.getElementById("divMiddlePanel").style.display= "block";
 			  document.getElementById("divLeftPanel").style.display="none";   
 			  document.getElementById("divRightPanel").style.display="none";      
 		    } 
 			else 
 			{
+			 property1.style.backgroundColor ="#333333";
 			  document.getElementById("divMiddlePanel").style.display="none";   
 		    	}
 		  }
-		function showPanel2() {
+		function showPanel2(btn2) {
 		  var x = document.getElementById("divRightPanel");
-	           		  
+	          var property2 = document.getElementById(btn2);  		  
 		    if(x.style.display=="none") {
 			x.style.display = "block";
+			 property2.style.backgroundColor ="red";   
 			 document.getElementById("divLeftPanel").style.display="none";   
 			  document.getElementById("divMiddlePanel").style.display="none";      
 		    } else {
+			    property2.style.backgroundColor ="#333333";
 			x.style.display = "none";
 		    }
 		  }
@@ -154,9 +159,9 @@
 <tr><td colspan="4" width="100%">
 	<div class="btn-group">
 	<button class="button" id="btnBioInfo" onclick="showPanel('divLeftPanel', 'btnBioInfo')">Biographical Info</button><span width="5px;">&nbsp;&nbsp;</span>
-	<button  class="button" id="btnResearch" onclick="showPanel1()">Research & Teaching</button>&nbsp;&nbsp;
-	<button class="button" id="btnPublication" onclick="showPanel2()">Publications & Awards</button>&nbsp;&nbsp;
-	<button class="button" id="btnNews" onclick="showPanel2()">News</button>
+	<button  class="button" id="btnResearch" onclick="showPanel1('btnResearch')">Research & Teaching</button>&nbsp;&nbsp;
+	<button class="button" id="btnPublication" onclick="showPanel2('btnPublication')">Publications & Awards</button>&nbsp;&nbsp;
+	<button class="button" id="btnNews" onclick="showPanel2('btnPublication')">News</button>
 	</div>
 	</td>
 </tr>
