@@ -21,14 +21,8 @@
 		{
 		  var x = document.getElementById(Div);
 	          var property = document.getElementById(btn); 
-			  if (count == 0){
-			property.style.backgroundColor ="red";
-			count=1;        
-		    }
-		    else{
-			property.style.backgroundColor = "black";
-			count=0;
-		    }
+		   property.style.backgroundColor ="red";
+		
 		    if(x.style.display=="none") 
 		    {
 			x.style.display = "block";
@@ -37,6 +31,7 @@
 		    } else
 		    {
 			x.style.display = "none";
+			property.style.backgroundColor ="black";
 		    }
 		  }
   		function showPanel1() 
