@@ -169,9 +169,12 @@ a:visited, a:link:visited {
   border-radius: 8px;	
 }
 
-.btn-group .button:hover {
+.btn-group .button:hover,
+.btn-group .button.active{
   background-color:grey;
 }
+
+
 .button {
   background-color: #333333;
   border: none;
