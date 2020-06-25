@@ -20,27 +20,27 @@
 
 		var count=1;
 		
-		  function showPanel(Div, btn) 
+		  function showEducationPanel(btnEducation) 
 		{
-		  var x = document.getElementById(Div);
-	          var property = document.getElementById(btn); 
+		  var x = document.getElementById("divEducationPanel");
+	          var property = document.getElementById(btnEducation); 
 		  
 		
 		    if(x.style.display=="none") 
 		    {
 			x.style.display = "block";
-			property.style.backgroundColor ="grey";
+			property.style.backgroundColor ="#F5F5F5";
+			property.style.color="black";    
 				
-			document.getElementById("btnResearch").style.backgroundColor ="#333333";
-			 document.getElementById("btnPublication").style.backgroundColor ="#333333";
-			 document.getElementById("btnNews").style.backgroundColor ="#333333";
-			 
-			/* document.getElementById("btnResearch").className ="active"; 
-			 document.getElementById("btnPublication").className ="active"; 
-			 document.getElementById("btnNews").className ="active"; property.className ="active";  */
-			
-			 document.getElementById("divMiddlePanel").style.display= "none";
-			 document.getElementById("divRightPanel").style.display="none";    
+			 document.getElementById("btnResearch").style.backgroundColor ="#333333";
+			 document.getElementById("btnPublications").style.backgroundColor ="#333333";
+			 document.getElementById("btnMisc").style.backgroundColor ="#333333";  
+			 document.getElementById("btnNews").style.backgroundColor ="#333333";    
+			    
+			  document.getElementById("divResearchPanel").style.display="none";   
+			  document.getElementById("divPublicationsPanel").style.display="none";      
+			  document.getElementById("divMiscPanel").style.display="none";   
+			  document.getElementById("divNewsPanel").style.display="none";     
 			
 			    
 		    } else
@@ -51,20 +51,23 @@
 			
 		    }
 		  }
-  		function showPanel1(btn1) 
+  		function showReserachPanel(btnResearch) 
 		{
-		  var x =   document.getElementById("divMiddlePanel");
-	          var property1 = document.getElementById(btn1);  		  
+		  var x =   document.getElementById("divResearchPanel");
+	          var property1 = document.getElementById(btnResearch);  		  
 		    if(x.style.display=="none") 
 		    { 
-			  property1.style.backgroundColor ="grey";
-			 document.getElementById("btnBioInfo").style.backgroundColor ="#333333";
-			 document.getElementById("btnPublication").style.backgroundColor ="#333333";
-			  document.getElementById("btnNews").style.backgroundColor ="#333333";  
+			  property1.style.backgroundColor ="#F5F5F5";
+			  property1.style.color="black";  
+			 document.getElementById("btnEducation").style.backgroundColor ="#333333";
+			 document.getElementById("btnPublications").style.backgroundColor ="#333333";
+			 document.getElementById("btnMisc").style.backgroundColor ="#333333";  
+			 document.getElementById("btnNews").style.backgroundColor ="#333333";    
 			    
-			  document.getElementById("divMiddlePanel").style.display= "block";
-			  document.getElementById("divLeftPanel").style.display="none";   
-			  document.getElementById("divRightPanel").style.display="none";      
+			  document.getElementById("divEducationPanel").style.display="none";   
+			  document.getElementById("divPublicationsPanel").style.display="none";      
+			  document.getElementById("divMiscPanel").style.display="none";   
+			  document.getElementById("divNewsPanel").style.display="none";       
 		    } 
 			else 
 			{
@@ -72,24 +75,83 @@
 			  document.getElementById("divMiddlePanel").style.display="none";   
 		    	}
 		  }
-		function showPanel2(btn2) {
-		  var x = document.getElementById("divRightPanel");
-	          var property2 = document.getElementById(btn2);  		  
-		    if(x.style.display=="none") {
+		
+		function showPublicationsPanel(btnPublications) 
+		{
+		  var x = document.getElementById("divPublicationsPanel");
+	          var property2 = document.getElementById(btnPublications);  		  
+		    if(x.style.display=="none")
+		    {
 			x.style.display = "block";
-			 property2.style.backgroundColor ="grey";   
-			  document.getElementById("btnBioInfo").style.backgroundColor ="#333333";
+			 property2.style.backgroundColor ="#F5F5F5";  
+			 property2.style.color="black";   
+			 document.getElementById("btnEducation").style.backgroundColor ="#333333";
 			 document.getElementById("btnResearch").style.backgroundColor ="#333333";
-			 document.getElementById("btnNews").style.backgroundColor ="#333333";  
+			 document.getElementById("btnMisc").style.backgroundColor ="#333333";  
+			 document.getElementById("btnNews").style.backgroundColor ="#333333";    
 			    
-			 document.getElementById("divLeftPanel").style.display="none";   
-			  document.getElementById("divMiddlePanel").style.display="none";      
-		    } else {
+			  document.getElementById("divEducationPanel").style.display="none";   
+			  document.getElementById("divResearchPanel").style.display="none";      
+			  document.getElementById("divMiscPanel").style.display="none";   
+			  document.getElementById("divNewsPanel").style.display="none";   
+		    } else 
+		    {
 			    property2.style.backgroundColor ="#333333";
 			x.style.display = "none";
 		    }
 		  }
-			
+		
+		
+		function showMiscPanel(btnMisc) 
+		{
+		  var x = document.getElementById("divMiscPanel");
+	          var property2 = document.getElementById(btnMisc);  		  
+		    if(x.style.display=="none")
+		    {
+			x.style.display = "block";
+			 property2.style.backgroundColor ="#F5F5F5";  
+			 property2.style.color="black";   
+			    
+			 document.getElementById("btnEducation").style.backgroundColor ="#333333";
+			 document.getElementById("btnResearch").style.backgroundColor ="#333333";
+			 document.getElementById("btnPublications").style.backgroundColor ="#333333";  
+			 document.getElementById("btnNews").style.backgroundColor ="#333333";    
+			    
+			  document.getElementById("divEducationPanel").style.display="none";   
+			  document.getElementById("divResearchPanel").style.display="none";      
+			  document.getElementById("divPublicationsPanel").style.display="none";   
+			  document.getElementById("divNewsPanel").style.display="none";  
+		    } else 
+		    {
+			    property2.style.backgroundColor ="#333333";
+			x.style.display = "none";
+		    }
+		  }
+	
+		
+		function showNewsPanel(btnNews) {
+		  var x = document.getElementById("divNewsPanel");
+	          var property2 = document.getElementById(btnNews);  		  
+		    if(x.style.display=="none")
+		    {
+			x.style.display = "block";
+			 property2.style.backgroundColor ="#F5F5F5";  
+			 property2.style.color="black";   
+			 document.getElementById("btnEducation").style.backgroundColor ="#333333";
+			 document.getElementById("btnResearch").style.backgroundColor ="#333333";
+			 document.getElementById("btnPublications").style.backgroundColor ="#333333";  
+			  document.getElementById("btnMisc").style.backgroundColor ="#333333";    
+			    
+			  document.getElementById("divEducationPanel").style.display="none";   
+			  document.getElementById("divResearchPanel").style.display="none";      
+			  document.getElementById("divPublicationsPanel").style.display="none";   
+			  document.getElementById("divMiscPanel").style.display="none";      
+		    } else
+		    {
+			    property2.style.backgroundColor ="#333333";
+			x.style.display = "none";
+		    }
+		  }
 		
 </script>
 </head>
@@ -179,19 +241,20 @@
 
 <div id="mainPanel" style="margin-top:-10px;">
 <table style="width :90%; align:left;">
-<tr><td colspan="4" width="100%">
-	<table style="width:95%; cell-padding:20px; cell-spacing:20px; border:solid; border-width:5px; border:color:yellow;" >
+<tr><td colspan="5" width="100%">
+	<table style="width:100%; cell-padding:20px; cell-spacing:20px; border:solid; border-width:5px; border:color:yellow;" >
 	  <tr>
-		<td width="220px"><button class="button"  id="btnBioInfo" onclick="showPanel('divLeftPanel', 'btnBioInfo')" style="background-color:grey; color:#ffcc33;">Biographical Info</button></td>
-		<td width="290px"><button  class="button" id="btnResearch" onclick="showPanel1('btnResearch')">Research & Teaching</button></td>
-		<td width="290px"><button class="button" id="btnPublication" onclick="showPanel2('btnPublication')">Publications & Awards</button></td>
-		<td width="140px"><button class="button" id="btnNews" onclick="showPanel2('btnPublication')">News</button></td>
+		<td width="210px"><button class="button"  id="btnEducation" onclick="showEducationPanel('btnEducation')" style="background-color:grey; color:#ffcc33;">Biographical Info</button></td>
+		<td width="250px"><button  class="button" id="btnResearch" onclick="showResearchPanel('btnResearch')">Research & Teaching</button></td>
+		<td width="250px"><button class="button" id="btnPublications" onclick="showPublicationsPanel('btnPublications')">Publications & Awards</button></td>
+		<td width="250px"><button class="button" id="btnMisc" onclick="showMiscPanel('btnMisc')">Bright ideas</button></td>  
+		<td width="140px"><button class="button" id="btnNews" onclick="showNewsPanel('btnNews')">News</button></td>
 	 <tr>	
 	</table>	
 	</tr>
 <tr>
  <td>
- <div id="divLeftPanel" >
+ <div id="divEducationPanel" >
 	<div id="content-professional" style="border:solid; border-width:1px; border-color:grey;"> 
 		<div id="content-professionalheader">Education</div>
 		<p> Ph.D. | 2011
@@ -205,7 +268,7 @@
 
 </td>
 <td>
-<div id="divMiddlePanel" style="display:none;" >	   
+<div id="divResearchPanel" style="display:none;" >	   
   	<div id="content-professional" style="border:solid; border-width:1px; border-color:grey;"> 
    	<div id="content-professionalheader">Professional Experience</div>
 			<p>•	18+ years of Extensive Research Experience in the area of Immunology, Molecular Biology, and Experimental Therapeutics.</P> 
@@ -257,7 +320,7 @@
 </div>
 </td>
 <td>
-<div id="divRightPanel" style="display:none;" >
+<div id="divPublicationsPanel" style="display:none;" >
 		
 	<div id="content-professional" style="border:solid; border-width:1px; border-color:grey;"> 
 		Peer Reviewed Publications (Refereed/Scholarly Journal Articles)</div> 
@@ -280,7 +343,20 @@
 </div>
 </div>
 </td>
-<td><div id="divRightPanelEx" style="display:none;"> News </div></td>
+<td><div id="divMiscPanel" style="display:none;"> 
+	<div id="content-professional" style="border:solid; border-width:1px; border-color:grey;"> 
+		<div id="content-professionalheader">Misc Information</div>
+		<p> Some information goes here </p>
+	</div>
+	</div>	
+</td>
+
+<td> <div id="divNewsPanel" style="display:none;">
+	<div id="content-professional" style="border:solid; border-width:1px; border-color:grey;"> 
+		<div id="content-professionalheader">News</div>
+		<p> Some information goes here </p>
+	</div>
+ </div></td>
 </tr>
 						    
 </table>
