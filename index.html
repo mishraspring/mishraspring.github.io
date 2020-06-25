@@ -57,9 +57,11 @@
 	          var property1 = document.getElementById(btnResearch);  		  
 		    if(x.style.display=="none") 
 		    { 
+			  x.style.display = "block";  
 			  property1.style.backgroundColor ="#F5F5F5";
 			  property1.style.color="black";  
-			 document.getElementById("btnEducation").style.backgroundColor ="#333333";
+			// document.getElementById("btnEducation").style.backgroundColor ="#333333";
+			    document.getElementById("btnEducation").classList.add("button");
 			 document.getElementById("btnPublications").style.backgroundColor ="#333333";
 			 document.getElementById("btnMisc").style.backgroundColor ="#333333";  
 			 document.getElementById("btnNews").style.backgroundColor ="#333333";    
