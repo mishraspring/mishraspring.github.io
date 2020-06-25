@@ -82,6 +82,7 @@ a:hover + .box,.box:hover{
 #content-professionalheader {
 	font-size: 20px;
 	border-bottom: 2px solid #999;
+	margin-top:10px;
 }
 
 h2 {
